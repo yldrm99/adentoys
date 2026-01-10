@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini E-Ticaret</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🛒 Mini E-Ticaret</h1>
+
+<div class="container">
+
+    <div class="products">
+        <h2>Ürünler</h2>
+        <div id="productList"></div>
+    </div>
+
+    <div class="cart">
+        <h2>🧺 Sepet</h2>
+
+        <p id="emptyMessage">Sepetiniz boş</p>
+
+        <ul id="cart"></ul>
+
+        <p class="total" id="total">Toplam: 0 TL</p>
+
+        <button onclick="sepetiTemizle()">Sepeti Temizle</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
